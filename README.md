@@ -1,1 +1,1 @@
-<a href='https://estudos-js.netlify.app' target="_blank"> Link do Site contendo os Estudos <a> 
+<a href='https://estudos-js.netlify.app' target="blank"> Link do Site contendo os Estudos <a> 
