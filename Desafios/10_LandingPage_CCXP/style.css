@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: #FFD900;
+}
+
+header img {
+    width: 202px;
+    height: 63px;
+    margin-top: 27px;
+    margin-left: 58px;
+    margin-bottom: 27px;
+}
+
+section {
+    display: grid;
+    grid-auto-flow: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#texto {
+    background-color: #514988;
+    text-align: center;
+    color: white;
+}
+
+#texto h1 {
+    font-size: 70px;
+    margin-top: 31px;
+    color: #f2ce00;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+#texto h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#texto p {
+    font-weight: 400;
+    font-size: 29px;
+}
