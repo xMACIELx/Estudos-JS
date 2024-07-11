@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -14,32 +15,60 @@ header img {
     margin-bottom: 27px;
 }
 
-section {
+#anuncio {
     display: grid;
     grid-auto-flow: column;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#texto {
-    background-color: #514988;
-    text-align: center;
-    color: white;
-}
+    #texto {
+        background-color: #514988;
+        text-align: center;
+        color: white;
+    }
 
-#texto h1 {
-    font-size: 70px;
-    margin-top: 31px;
-    color: #f2ce00;
-    margin-bottom: 0px;
-    font-weight: 700;
-}
+        #texto h1 {
+            font-size: 70px;
+            margin-top: 31px;
+            margin-bottom: 0px;
+            color: #f2ce00;
+            font-weight: 700;
+        }
 
-#texto h2 {
-    font-size: 30px;
-    font-weight: 700;
-}
+        #texto h2 {
+            font-size: 30px;
+            font-weight: 700;
+        }
 
-#texto p {
-    font-weight: 400;
-    font-size: 29px;
-}
+        #texto p {
+            font-weight: 400;
+            font-size: 29px;
+        }
+
+    #video {
+        text-align: center;
+    }
+
+        #cronometro {
+            display: grid;
+            grid-auto-flow: column;
+            margin: 0px;
+        }
+
+            #cronometro div {
+                display: flex;
+                margin: 31px auto 0px auto;
+                margin-top: 31px;
+                font-weight: 700;
+                font-size: 50px;
+            }
+
+                #cronometro div h1{
+                    margin: 0px;
+                    color: #514988;
+                }
+
+        #video h2 {
+            font-size: 35px;
+            font-weight: 700;
+            color: #E33881;
+        }
